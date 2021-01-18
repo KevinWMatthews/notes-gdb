@@ -43,8 +43,8 @@ Alter them using:
 (gdb) set args
 ```
 
-[Docs: files](https://sourceware.org/gdb/current/onlinedocs/gdb/Files.html)
-[Docs: run](https://sourceware.org/gdb/current/onlinedocs/gdb/Starting.html)
+* [Docs: files](https://sourceware.org/gdb/current/onlinedocs/gdb/Files.html)
+* [Docs: run](https://sourceware.org/gdb/current/onlinedocs/gdb/Starting.html)
 
 ## Inspect Variable
 
@@ -76,7 +76,7 @@ Alter the print format using `/` and a "format letter":
 (gdb) p/x <pointer>
 ```
 
-[Docs](https://sourceware.org/gdb/current/onlinedocs/gdb/Data.html)
+* [Docs](https://sourceware.org/gdb/current/onlinedocs/gdb/Data.html)
 
 ## Location
 
@@ -101,7 +101,7 @@ Show source:
 
 TODO Learn about location spec
 
-[Docs: location](https://sourceware.org/gdb/current/onlinedocs/gdb/Specify-Location.html)
+* [Docs: location](https://sourceware.org/gdb/current/onlinedocs/gdb/Specify-Location.html)
 
 ## Stepping
 
@@ -153,8 +153,8 @@ Instruction-level stepping:
 (gdb) nexti
 ```
 
-[Docs](https://sourceware.org/gdb/current/onlinedocs/gdb/Continuing-and-Stepping.html)
-[Docs: return](https://sourceware.org/gdb/current/onlinedocs/gdb/Returning.html)
+* [Docs](https://sourceware.org/gdb/current/onlinedocs/gdb/Continuing-and-Stepping.html)
+* [Docs: return](https://sourceware.org/gdb/current/onlinedocs/gdb/Returning.html)
 
 ## Breakpoints
 
@@ -199,7 +199,7 @@ Breakpoints can be saved to and loaded from a file:
 (gdb) source <filename>
 ```
 
-[Docs](https://sourceware.org/gdb/current/onlinedocs/gdb/Breakpoints.html)
+* [Docs](https://sourceware.org/gdb/current/onlinedocs/gdb/Breakpoints.html)
 
 ### Breakpoint Options
 
@@ -219,7 +219,7 @@ A special kind of breakpoint: pause execution whenever a value changes.
 (gdb) watch -l <var>
 ```
 
-[Docs](https://sourceware.org/gdb/current/onlinedocs/gdb/Set-Watchpoints.html)
+* [Docs](https://sourceware.org/gdb/current/onlinedocs/gdb/Set-Watchpoints.html)
 
 ## Signals
 
@@ -240,7 +240,7 @@ Inspect and modify behavior using:
 (gdb) handle <signal> <behavior>
 ```
 
-[Docs](https://sourceware.org/gdb/current/onlinedocs/gdb/Signals.html)
+* [Docs](https://sourceware.org/gdb/current/onlinedocs/gdb/Signals.html)
 
 ## Backtraces
 
@@ -249,7 +249,7 @@ Inspect and modify behavior using:
 (gdb) bt
 ```
 
-[Docs](https://sourceware.org/gdb/current/onlinedocs/gdb/Backtrace.html)
+* [Docs](https://sourceware.org/gdb/current/onlinedocs/gdb/Backtrace.html)
 
 ### Backtrace Options
 
@@ -282,7 +282,7 @@ This is useful in conjunction with a backtrace:
 (gdb) advance +1
 ```
 
-[Docs](https://sourceware.org/gdb/current/onlinedocs/gdb/Selection.html)
+* [Docs](https://sourceware.org/gdb/current/onlinedocs/gdb/Selection.html)
 
 ## Dynamic Printf
 
@@ -293,7 +293,7 @@ Automatically create a breakpoint, print an expression, and resume execution:
 (gdb) dprintf <location>, "%d %s", some_int, some_string
 ```
 
-[Docs](https://sourceware.org/gdb/current/onlinedocs/gdb/Dynamic-Printf.html)
+* [Docs](https://sourceware.org/gdb/current/onlinedocs/gdb/Dynamic-Printf.html)
 
 ## Info
 
@@ -332,8 +332,8 @@ Not sure what is happening. Is it recording signals? Does execting a reverse ins
 NOTE: this has issue with IO?
 NOTE: this fails on system calls (`printf`)?
 
-[Docs: record](https://sourceware.org/gdb/current/onlinedocs/gdb/Process-Record-and-Replay.html)
-[Docs: reverse](https://sourceware.org/gdb/current/onlinedocs/gdb/Reverse-Execution.html)
+* [Docs: record](https://sourceware.org/gdb/current/onlinedocs/gdb/Process-Record-and-Replay.html)
+* [Docs: reverse](https://sourceware.org/gdb/current/onlinedocs/gdb/Reverse-Execution.html)
 
 ## Helpful Hints
 

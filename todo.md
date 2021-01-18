@@ -33,8 +33,8 @@
 
 ## Visualizations
 
-[gdb dashboard](https://github.com/cyrus-and/gdb-dashboard)
-[pyAVRdbg](https://github.com/stemnic/pyAVRdbg)
+* [gdb dashboard](https://github.com/cyrus-and/gdb-dashboard)
+* [pyAVRdbg](https://github.com/stemnic/pyAVRdbg)
 
 ## To Watch
 
