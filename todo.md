@@ -30,11 +30,16 @@
 * examine memory
 * custom command to reload the current file (use Python?)
 * [Shell commands](https://sourceware.org/gdb/current/onlinedocs/gdb/Shell-Commands.html)
-
 ## Visualizations
 
 * [gdb dashboard](https://github.com/cyrus-and/gdb-dashboard)
 * [pyAVRdbg](https://github.com/stemnic/pyAVRdbg)
+
+## To Read
+
+* [Implementing a debugger, part 1](https://backtrace.io/blog/backtrace/debugger-internals/)
+* [Implementing a debugger, part 2](https://backtrace.io/blog/backtrace/building-a-go-debugger/)
+
 
 ## To Watch
 
